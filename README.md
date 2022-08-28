@@ -8,6 +8,11 @@ A simple photo sharing app using Firebase
 - Recyclerview
 
 
+
+
+[Download APK](https://drive.google.com/file/d/1bPbY14rFop3TDcqQC-XqWXlm5X6QDSIQ/view?usp=sharing)
+
+
 ## Demo
 
 ![](https://github.com/eraybulut/Social-Media-App/blob/1b5979f440199098fb6e94e892a12add5f9600ab/media/demo.gif)
