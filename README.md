@@ -1,5 +1,6 @@
 # Social-Media-App
-A simple photo sharing app using Firebase
+
+Simple photo sharing app for android using firebase
 
 - Firebase Authentication
 - Firebase Database
