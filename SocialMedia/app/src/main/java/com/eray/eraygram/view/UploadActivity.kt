@@ -70,7 +70,7 @@ class UploadActivity : AppCompatActivity() {
 
     fun postUpload(view: View){
 
-        //Farklı isimlerde image ismi alma
+        //save pictures with different names
         val uuid= UUID.randomUUID()
         val imageName="$uuid.jpg"
 
@@ -85,7 +85,7 @@ class UploadActivity : AppCompatActivity() {
 
                 uploadPictureReference.downloadUrl.addOnSuccessListener {
 
-                    //Hasmap ile key value ile veri aldım
+                  
                     val dowloadUrl=it.toString()
                     val postMap= hashMapOf<String,Any>()
                     postMap.put("dowloadUrl",dowloadUrl)
@@ -93,7 +93,7 @@ class UploadActivity : AppCompatActivity() {
                     postMap.put("comment",binding.editTextUploadCommet.text.toString().trim())
                     postMap.put("date",Timestamp.now())
 
-                    //veri tabanına kayit
+                    
                     firestore.collection("Posts").add(postMap).addOnSuccessListener {
                         finish()
 
