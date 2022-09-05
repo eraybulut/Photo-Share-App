@@ -1,4 +1,4 @@
-# Social-Media-App
+# Photo Share App
 
 Simple photo sharing app for android using firebase
 
